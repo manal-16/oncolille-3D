@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ useShinyjs() }}
+        {{ headContent() }}
+		<title>Telephasic by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+    <body class="no-sidebar is-preload">
+        <div id="page-wrapper">
+
+            <!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h1 id="logo"><a href="../index.html">3DCorr</a></h1>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href="index.html">Home</a></li>
+									<li>
+										<a href="visualisation.html">Visualisation</a>
+										<ul>
+											<li><a href="#">Interchromosomal Correlation</a></li>
+											<li><a href="#">Interchromosomal Clustering</a></li>
+											<li><a href="#">Intrachromosomal Correlation</a></li>
+										</ul>
+									</li>
+									<li><a href="latnet.html">LATNET</a></li>
+									<li>
+										<a href="help.html">Help</a>
+										<ul>
+											<li><a href="#">Data Management</a></li>
+											<li><a href="#">Data Input</a></li>
+											<li><a href="#">Interpretation</a></li>
+										</ul>
+									</li>
+									<li><a href="about.html">About</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+
+        </div>
+        <main>
+            <p>{{file_1D_coords}}</p>
+            <p>{{file_expr_intra}}</p>
+        </main>
+<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+            
+    </body>
+</html>
